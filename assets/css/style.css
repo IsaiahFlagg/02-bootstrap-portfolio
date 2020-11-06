@@ -10,6 +10,17 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
+button {
+  margin-left: 1rem;
+  background-color: #4aaaa5 !important; 
+  border: 1px solid #666;
+}
+
+.btn-success:hover {
+  background-color: #000 !important;
+  border: 1px solid #000 !important;
+}
+
 * {
   /* Box-model */
   box-sizing: border-box;
@@ -150,13 +161,10 @@ nav li {
 
 nav a {
   /* Typography */
-  color: #999;
+  color: white;
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #666;
-}
 
 nav li:first-child {
   /* Box-model */
